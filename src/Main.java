@@ -6,7 +6,7 @@ import java.util.Scanner;
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            int a, b, c, d;
+            int a, b, c;
             System.out.println("Próbny kalkulator. Wpisz pierwszą cyfrę: ");
             a =Integer.parseInt(scanner.nextLine());
             System.out.println("Wpisz drugą cyfrę: ");
@@ -16,7 +16,7 @@ import java.util.Scanner;
             System.out.println("wynik odejmowania: " + (a - b));
             if (b != 0){
                 System.out.println("wynik mnożenia: " + (a * b));
-                System.out.println("wynik dzielenia: 8" + ((double)a / (double)b));
+                System.out.println("wynik dzielenia: " + ((double)a / (double)b));
             }
             else{
                 System.out.println("Dzielenie przez 0 jest niemożliwe");
